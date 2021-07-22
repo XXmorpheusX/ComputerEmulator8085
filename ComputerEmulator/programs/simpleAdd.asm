@@ -1,0 +1,9 @@
+label 0x0000:
+	lda 0x0040
+	mov B, A
+	lda 0x0041
+	add B
+	sta 0x0042
+
+data 0x0040:
+	05 07
